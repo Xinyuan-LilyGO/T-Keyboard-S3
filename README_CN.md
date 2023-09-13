@@ -54,12 +54,12 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 <details><summary><b>T-Keyboard-S3</b></summary>
 
-### T-Keyboard-S3 正面
+##### T-Keyboard-S3 正面
 <center>
     <img src="image/1.png" alt="example">
 </center>
 
-### T-Keyboard-S3 反面
+##### T-Keyboard-S3 反面
 <center>
     <img src="image/2.png" alt="example">
 </center>
@@ -69,7 +69,7 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 <details><summary><b>T-Keyboard-S3_FPC</b></summary>
 
-### T-Keyboard-S3_FPC 正反面
+##### T-Keyboard-S3_FPC 正反面
 <center>
     <img src="image/3.png" alt="example">
 </center>

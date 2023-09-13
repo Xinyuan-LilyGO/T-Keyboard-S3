@@ -54,12 +54,12 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 <details><summary><b>T-Keyboard-S3</b></summary>
 
-### T-Keyboard-S3 Front
+##### T-Keyboard-S3 Front
 <center>
     <img src="image/1.png" alt="example">
 </center>
 
-### T-Keyboard-S3 Back
+##### T-Keyboard-S3 Back
 <center>
     <img src="image/2.png" alt="example">
 </center>
@@ -69,7 +69,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 <details><summary><b>T-Keyboard-S3_FPC</b></summary>
 
-### T-Keyboard-S3_FPC Front and Back
+##### T-Keyboard-S3_FPC Front and Back
 <center>
     <img src="image/3.png" alt="example">
 </center>
