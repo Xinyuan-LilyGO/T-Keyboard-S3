@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-13 14:03:53
+ * @LastEditTime: 2023-09-13 18:39:42
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3</h1>
@@ -54,12 +54,12 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 <details><summary><b>T-Keyboard-S3</b></summary>
 
-##### T-Keyboard-S3 正面
+### T-Keyboard-S3 正面
 <center>
     <img src="image/1.png" alt="example">
 </center>
 
-##### T-Keyboard-S3 反面
+### T-Keyboard-S3 反面
 <center>
     <img src="image/2.png" alt="example">
 </center>
@@ -69,7 +69,7 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 <details><summary><b>T-Keyboard-S3_FPC</b></summary>
 
-##### T-Keyboard-S3_FPC 正反面
+### T-Keyboard-S3_FPC 正反面
 <center>
     <img src="image/3.png" alt="example">
 </center>
@@ -83,27 +83,27 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 ### 1. ESP32­ S3­ WROOM­ 1
 
-* #### 芯片：ESP32-S3R8
-* #### PSRAM：无
-* #### FLASH：16M
-* #### 其他说明：更多资料请访问[乐鑫官方ESP32­ S3­ WROOM­ 1数据手册](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
+* 芯片：ESP32-S3R8
+* PSRAM：无
+* FLASH：16M
+* 其他说明：更多资料请访问[乐鑫官方ESP32­ S3­ WROOM­ 1数据手册](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 
 ### 2. 四块128x128像素LCD显示屏幕
 
-* #### 驱动：GC9107
-* #### 兼容库：Arduino_GFX、TFT_eSPI、lvgl
-* #### 使用总线通信协议：标准SPI
-* #### 其他说明：四块屏幕的RST、DC、MOSI、SCLK、BL引脚各共用一条总线，初始化复位时候四块屏幕一起复位，选择不同CS线即可控制不同的屏幕刷新数据
+* 驱动：GC9107
+* 兼容库：Arduino_GFX、TFT_eSPI、lvgl
+* 使用总线通信协议：标准SPI
+* 其他说明：四块屏幕的RST、DC、MOSI、SCLK、BL引脚各共用一条总线，初始化复位时候四块屏幕一起复位，选择不同CS线即可控制不同的屏幕刷新数据
 
 ### 3. 热插拔按键
 
-* #### 规格：选用的热插拔连接器是Kailh公司的连接器，两引脚间距是6.35MM，满足间距为6.35mm的热插拔针脚按键都可适用
-* #### PCB连接：默认KEY1->KEY3引脚未连接上拉电阻，但有预留一个上拉电阻位置，下拉使能低电平作为判断信号，KEY4复用为BOOT-0作为系统上电模式选择，默认有一个10K上拉电阻，同样以低电平作为判断信号，软件内必须配置其引脚为内部上拉才能稳定使用
-* #### 其他说明：因为要连接屏幕，所以请务必选择中间有开孔的热插拔按键，间距应该大于排线宽度7MM以上
+* 规格：选用的热插拔连接器是Kailh公司的连接器，两引脚间距是6.35MM，满足间距为6.35mm的热插拔针脚按键都可适用
+* PCB连接：默认KEY1->KEY3引脚未连接上拉电阻，但有预留一个上拉电阻位置，下拉使能低电平作为判断信号，KEY4复用为BOOT-0作为系统上电模式选择，默认有一个10K上拉电阻，同样以低电平作为判断信号，软件内必须配置其引脚为内部上拉才能稳定使用
+* 其他说明：因为要连接屏幕，所以请务必选择中间有开孔的热插拔按键，间距应该大于排线宽度7MM以上
 
 ### 4. 固定孔螺丝
 
-* #### 规格：PCB上的开孔直径为2.5MM，在选择螺丝固定的时候请选择2.5MM以下的
+* 规格：PCB上的开孔直径为2.5MM，在选择螺丝固定的时候请选择2.5MM以下的
 
 
 ## 快速开始

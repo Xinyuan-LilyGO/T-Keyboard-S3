@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-13 14:05:10
+ * @LastEditTime: 2023-09-13 18:40:11
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3</h1>
@@ -83,27 +83,27 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 ### 1. ESP32­ S3­ WROOM­ 1
 
-* #### Chip: ESP32-S3R8
-* #### PSRAM: null
-* #### FLASH: 16M
-* #### Others: For more information, please visit[Espressif Official ESP32 S3 WROOM 1 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
+* Chip: ESP32-S3R8
+* PSRAM: null
+* FLASH: 16M
+* Others: For more information, please visit[Espressif Official ESP32 S3 WROOM 1 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 
 ### 2. Four 128x128 pixel LCD display screens
 
-* #### Drive: GC9107
-* #### Compatibility library: Arduino_GFX,TFT_eSPI,lvgl
-* #### Bus communication protocol: Standard SPI
-* #### Others: The RST, DC, MOSI, SCLK, and BL pins of the four screens share a common bus. During initialization, all four screens are reset together, and by selecting different CS lines, you can control the refreshing data for each screen separately.
+* Drive: GC9107
+* Compatibility library: Arduino_GFX,TFT_eSPI,lvgl
+* Bus communication protocol: Standard SPI
+* Others: The RST, DC, MOSI, SCLK, and BL pins of the four screens share a common bus. During initialization, all four screens are reset together, and by selecting different CS lines, you can control the refreshing data for each screen separately.
 
 ### 3. Hot swappable button
 
-* #### Specifications: The selected hot-swappable connector is from Kailh company, with a pin spacing of 6.35mm, making it compatible with all hot-swappable pins and buttons with a 6.35mm spacing.
-* #### PCB connection: The default configuration for the KEY1 to KEY3 pins does not include pull-up resistors, but there is a reserved position for a pull-up resistor. Pulling these pins low enables them to serve as judgment signals. KEY4 is multiplexed as BOOT-0 for system power-on mode selection by default, with a 10K pull-up resistor. Similarly, pulling this pin low serves as the judgment signal. To ensure stable operation, you must configure the corresponding pin as an internal pull-up in the software.
-* #### Others: Because screens need to be connected, please make sure to choose hot-swappable buttons with an opening in the middle, and the spacing should be greater than 7mm, which is wider than the ribbon cable width.
+* Specifications: The selected hot-swappable connector is from Kailh company, with a pin spacing of 6.35mm, making it compatible with all hot-swappable pins and buttons with a 6.35mm spacing.
+* PCB connection: The default configuration for the KEY1 to KEY3 pins does not include pull-up resistors, but there is a reserved position for a pull-up resistor. Pulling these pins low enables them to serve as judgment signals. KEY4 is multiplexed as BOOT-0 for system power-on mode selection by default, with a 10K pull-up resistor. Similarly, pulling this pin low serves as the judgment signal. To ensure stable operation, you must configure the corresponding pin as an internal pull-up in the software.
+* Others: Because screens need to be connected, please make sure to choose hot-swappable buttons with an opening in the middle, and the spacing should be greater than 7mm, which is wider than the ribbon cable width.
 
 ### 4. Fixing hole screws
 
-* #### Specifications: The hole diameter on the PCB is 2.5mm. When selecting screws for fastening, please choose ones with a diameter below 2.5mm.
+* Specifications: The hole diameter on the PCB is 2.5mm. When selecting screws for fastening, please choose ones with a diameter below 2.5mm.
 
 
 ## QuickStart
