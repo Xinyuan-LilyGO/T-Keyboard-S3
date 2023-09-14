@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-14 10:24:39
+ * @LastEditTime: 2023-09-14 13:46:53
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3</h1>
@@ -138,7 +138,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 | USB DFU On Boot                | Disabled                             |
 | CPU Frequency                   | 240MHz (WiFi)                    |
 | Flash Mode                         | QIO 80MHz                         |
-| Flash Size                           | 16MB (128Mb)                    |
+| Flash Size                           | 16MB (128Mb)                     |
 | Core Debug Level                | None                                 |
 | Arduino Runs On                  | Core 1                               |
 | Events Run On                     | Core 1                               |
@@ -213,6 +213,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 ## Project
 * [SCH_T-Keyboard-S3_V1.0](./Project/SCH_T-Keyboard-S3_V1.0.pdf)
+* [SCH_T-Keyboard-S3-FPC_V1.0](./Project/SCH_T-Keyboard-S3-FPC_V1.0.pdf)
 
 ## Information
 * [ESP32-S3-WROOM-1-N16R2](./information/ESP32-S3-WROOM-1-N16R2.pdf)
