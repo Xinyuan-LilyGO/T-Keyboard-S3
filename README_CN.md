@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-13 18:39:42
+ * @LastEditTime: 2023-09-14 13:35:00
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3</h1>
@@ -128,7 +128,24 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 4. 打开菜单栏“[文件](image/6.png)”->“[首选项](image/6.png)”，找到“[项目文件夹位置](image/7.png)”这一栏，将项目目录下的“libraries”文件夹里的所有库文件连带文件夹复制粘贴到这个目录下的“libraries”里边。
 
-5. 点击右上角“<kbd>[√](image/8.png)</kbd>”进行编译，如果编译无误，将单片机连接电脑，点击右上角“<kbd>[→](image/9.png)</kbd>”即可进行烧录。
+5. 在 "工具 "菜单中选择正确的设置，如下表所示。
+
+| Setting                               | Value                                 |
+| :-------------------------------: | :-------------------------------: |
+| USB Mode                           | Hardware CDC and JTAG     |
+| USB CDC On Boot                | Enabled                             |
+| USB Firmware MSC On Boot | Disabled                             |
+| USB DFU On Boot                | Disabled                             |
+| CPU Frequency                   | 240MHz (WiFi)                    |
+| Flash Mode                         | QIO 80MHz                         |
+| Flash Size                           | 16MB (128Mb)                     |
+| Core Debug Level                | None                                 |
+| Arduino Runs On                  | Core 1                               |
+| Events Run On                     | Core 1                               |
+
+6. 选择正确的端口。
+
+7. 点击右上角“<kbd>[√](image/8.png)</kbd>”进行编译，如果编译无误，将单片机连接电脑，点击右上角“<kbd>[→](image/9.png)</kbd>”即可进行烧录。
 
 ### firmware烧录
 1. 打开项目文件“tools”找到ESP32烧录工具，打开。

@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-13 18:40:11
+ * @LastEditTime: 2023-09-14 10:24:39
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3</h1>
@@ -128,7 +128,24 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 4. Open menu bar "[File](image/6.png)" -> "[Preferences](image/6.png)" ,Find "[Sketchbook location](image/7.png)"  here,copy and paste all library files and folders from the "libraries" folder in the project directory into the "libraries" folder in this directory.
 
-5. Click "<kbd>[√](image/8.png)</kbd>" in the upper right corner to compile,If the compilation is correct, connect the microcontroller to the computer,Click "<kbd>[→](image/9.png)</kbd>" in the upper right corner to download.
+5. Select the correct settings in the Tools menu, as shown in the table below.
+
+| Setting                               | Value                                 |
+| :-------------------------------: | :-------------------------------: |
+| USB Mode                           | Hardware CDC and JTAG     |
+| USB CDC On Boot                | Enabled                             |
+| USB Firmware MSC On Boot | Disabled                             |
+| USB DFU On Boot                | Disabled                             |
+| CPU Frequency                   | 240MHz (WiFi)                    |
+| Flash Mode                         | QIO 80MHz                         |
+| Flash Size                           | 16MB (128Mb)                     |
+| Core Debug Level                | None                                 |
+| Arduino Runs On                  | Core 1                               |
+| Events Run On                     | Core 1                               |
+
+6. Select the correct port.
+
+7. Click "<kbd>[√](image/8.png)</kbd>" in the upper right corner to compile,If the compilation is correct, connect the microcontroller to the computer,Click "<kbd>[→](image/9.png)</kbd>" in the upper right corner to download.
 
 ### firmware download
 1. Open the project file "tools" and locate the ESP32 burning tool. Open it.
