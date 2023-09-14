@@ -138,7 +138,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 | USB DFU On Boot                | Disabled                             |
 | CPU Frequency                   | 240MHz (WiFi)                    |
 | Flash Mode                         | QIO 80MHz                         |
-| Flash Size                           | 16MB (128Mb)                     |
+| Flash Size                           | 16MB (128Mb)                    |
 | Core Debug Level                | None                                 |
 | Arduino Runs On                  | Core 1                               |
 | Events Run On                     | Core 1                               |

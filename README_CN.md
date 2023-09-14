@@ -138,7 +138,7 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 | USB DFU On Boot                | Disabled                             |
 | CPU Frequency                   | 240MHz (WiFi)                    |
 | Flash Mode                         | QIO 80MHz                         |
-| Flash Size                           | 16MB (128Mb)                     |
+| Flash Size                           | 16MB (128Mb)                    |
 | Core Debug Level                | None                                 |
 | Arduino Runs On                  | Core 1                               |
 | Events Run On                     | Core 1                               |
