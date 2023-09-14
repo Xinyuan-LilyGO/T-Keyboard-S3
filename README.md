@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-14 13:46:53
+ * @LastEditTime: 2023-09-14 16:05:33
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3</h1>
@@ -24,9 +24,9 @@
 
 ## PurchaseLink
 
-| Product                              | Link                     |
-| :-------------------------------: | :--------------------: |
-| T-Keyboard-S3_V1.0            | [Not yet sold]()     |
+| Product                     | SOC           |  FLASH  |  PSRAM   | Link                   |
+| :------------------------: | :-----------: |:-------: | :---------: | :------------------: |
+| T-Keyboard-S3_V1.0   | ESP32S3R8 |   16M   | 8M (Octal SPI) |  [Not yet sold]()  |
 
 ## Directory
 - [Describe](#describe)
@@ -84,7 +84,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 ### 1. ESP32­ S3­ WROOM­ 1
 
 * Chip: ESP32-S3R8
-* PSRAM: null
+* PSRAM: 8M (Octal SPI)
 * FLASH: 16M
 * Others: For more information, please visit[Espressif Official ESP32 S3 WROOM 1 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 
@@ -132,6 +132,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 | Setting                               | Value                                 |
 | :-------------------------------: | :-------------------------------: |
+| Upload Speed                     | 921600                               |
 | USB Mode                           | Hardware CDC and JTAG     |
 | USB CDC On Boot                | Enabled                             |
 | USB Firmware MSC On Boot | Disabled                             |
@@ -140,6 +141,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 | Flash Mode                         | QIO 80MHz                         |
 | Flash Size                           | 16MB (128Mb)                     |
 | Core Debug Level                | None                                 |
+| PSRAM                                | OPI PSRAM                         |
 | Arduino Runs On                  | Core 1                               |
 | Events Run On                     | Core 1                               |
 
@@ -204,7 +206,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 <br />
 
 * Q. How should I enable external PSRAM?
-* A. For PlatformIO users, open the project file "platformio.ini" and uncomment the option "-D BOARD_HAS_PSRAM" under "build_flags = xxx." Please note that if there is no external PSRAM connected to the device, it will result in an error after burning.<br />For Arduino users, open the "Tools" menu and select "PSRAM: QSPI PSRAM" to enable the external PSRAM for normal use.
+* A. For PlatformIO users, open the project file "platformio.ini" and use the option "-D BOARD_HAS_PSRAM" under "build_flags = xxx". Also, use "board_build.arduino.memory_type = qio_qspi". Note that if there is no external PSRAM connected to the device, an error will occur after downloading. <br /> For Arduino users, open the "Tools" menu and select "PSRAM: QSPI PSRAM" to use the external PSRAM normally.
 
 <br />
 

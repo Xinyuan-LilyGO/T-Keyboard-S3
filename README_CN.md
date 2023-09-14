@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-14 13:46:47
+ * @LastEditTime: 2023-09-14 16:05:16
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3</h1>
@@ -24,9 +24,9 @@
 
 ## 购买链接
 
-| Product                         | Link                    |
-| :---------------------------: | :-------------------: |
-| T-Keyboard-S3_V1.0       | [暂未售卖]()       |
+| Product                     | SOC           |  FLASH  |  PSRAM   | Link                   |
+| :------------------------: | :-----------: |:-------: | :---------: | :------------------: |
+| T-Keyboard-S3_V1.0   | ESP32S3R8 |   16M   | 8M (Octal SPI) |  [暂未售卖]()  |
 
 ## 目录
 - [描述](#描述)
@@ -84,7 +84,7 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 ### 1. ESP32­ S3­ WROOM­ 1
 
 * 芯片：ESP32-S3R8
-* PSRAM：无
+* PSRAM：8M (Octal SPI)
 * FLASH：16M
 * 其他说明：更多资料请访问[乐鑫官方ESP32­ S3­ WROOM­ 1数据手册](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 
@@ -132,6 +132,7 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 | Setting                               | Value                                 |
 | :-------------------------------: | :-------------------------------: |
+| Upload Speed                     | 921600                               |
 | USB Mode                           | Hardware CDC and JTAG     |
 | USB CDC On Boot                | Enabled                             |
 | USB Firmware MSC On Boot | Disabled                             |
@@ -140,6 +141,7 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 | Flash Mode                         | QIO 80MHz                         |
 | Flash Size                           | 16MB (128Mb)                     |
 | Core Debug Level                | None                                 |
+| PSRAM                                | OPI PSRAM                         |
 | Arduino Runs On                  | Core 1                               |
 | Events Run On                     | Core 1                               |
 
@@ -204,7 +206,7 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 <br />
 
 * Q. 我应该如何开启外部PSRAM呢？
-* A. PlatformIO用户请打开项目文件“platformio.ini”，将“build_flags = xxx”下的选项“-D BOARD_HAS_PSRAM”取消注释即可，注意，如果设备上无外接PSRAM，烧录后就会报错。<br />Arduino用户打开菜单“工具”栏，选择PSRAM: “QSPI PSRAM”即可正常使用外部PSRAM。
+* A. PlatformIO用户请打开项目文件“platformio.ini”，使用“build_flags = xxx”下的选项“-D BOARD_HAS_PSRAM”,并且使用“board_build.arduino.memory_type = qio_qspi ”，注意，如果设备上无外接PSRAM，烧录后就会报错。<br />Arduino用户打开菜单“工具”栏，选择PSRAM: “QSPI PSRAM”即可正常使用外部PSRAM。
 
 <br />
 
