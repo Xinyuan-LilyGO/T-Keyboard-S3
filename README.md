@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-14 16:05:33
+ * @LastEditTime: 2023-09-19 10:40:23
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3</h1>
@@ -186,7 +186,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 | Other pins          | ESP32S3 pin       |
 | :------------------: | :------------------:|
-| WS2812B_Data    | IO11                 |
+| WS2812C_Data    | IO11                 |
 
 ## FAQ
 
@@ -220,9 +220,10 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 ## Information
 * [ESP32-S3-WROOM-1-N16R2](./information/ESP32-S3-WROOM-1-N16R2.pdf)
 * [WS2812B-2020](./information/WS2812B-2020.pdf)
+* [WS2812C-2020](./information/WS2812C-2020.pdf)
 
 ## DependentLibraries
-* [Arduino_GFX-1.3.6](https://github.com/moononournation/Arduino_GFX)
+* [Arduino_GFX-1.3.7](https://github.com/moononournation/Arduino_GFX)
 * [FastLED-3.6.0](https://github.com/FastLED/FastLED)
 * [lvgl](https://github.com/lvgl/lvgl)
 * [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)

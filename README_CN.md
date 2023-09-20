@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-14 16:05:16
+ * @LastEditTime: 2023-09-19 10:40:08
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Keyboard-S3</h1>
@@ -220,10 +220,11 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 ## 资料
 * [ESP32-S3-WROOM-1-N16R2](./information/ESP32-S3-WROOM-1-N16R2.pdf)
 * [WS2812B-2020](./information/WS2812B-2020.pdf)
+* [WS2812C-2020](./information/WS2812C-2020.pdf)
 
 
 ## 依赖库
-* [Arduino_GFX-1.3.6](https://github.com/moononournation/Arduino_GFX)
+* [Arduino_GFX-1.3.7](https://github.com/moononournation/Arduino_GFX)
 * [FastLED-3.6.0](https://github.com/FastLED/FastLED)
 * [lvgl](https://github.com/lvgl/lvgl)
 * [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)

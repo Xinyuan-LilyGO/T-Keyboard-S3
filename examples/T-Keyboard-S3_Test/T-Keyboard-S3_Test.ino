@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-06-10 17:30:22
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-13 13:43:16
+ * @LastEditTime: 2023-09-18 15:53:43
  */
 #include <Arduino.h>
 #include "lvgl.h"
@@ -33,6 +33,9 @@ static lv_disp_draw_buf_t draw_buf;
 static lv_color_t buf[screenWidth * screenHeight / 10];
 
 TFT_eSPI tft = TFT_eSPI(screenWidth, screenHeight); /* TFT instance */
+
+uint32_t WS2812B_Color[4] = {CRGB::Red, CRGB::Green, CRGB::Blue, CRGB::Black};
+uint8_t WS2812B_Color_Set = 0;
 
 void IRAM_ATTR Tim0_Interrupt(void)
 {
@@ -379,11 +382,25 @@ void setup()
             ledcWrite(1, i);
             delay(2);
         }
+        leds[0] = WS2812B_Color[WS2812B_Color_Set];
+        leds[1] = WS2812B_Color[WS2812B_Color_Set];
+        leds[2] = WS2812B_Color[WS2812B_Color_Set];
+        leds[3] = WS2812B_Color[WS2812B_Color_Set];
+        FastLED.show();
+        WS2812B_Color_Set++;
+        WS2812B_Color_Set > 3 ? WS2812B_Color_Set = 0 : WS2812B_Color_Set = WS2812B_Color_Set;
         for (int i = 255; i > 0; i--)
         {
             ledcWrite(1, i);
             delay(5);
         }
+        leds[0] = WS2812B_Color[WS2812B_Color_Set];
+        leds[1] = WS2812B_Color[WS2812B_Color_Set];
+        leds[2] = WS2812B_Color[WS2812B_Color_Set];
+        leds[3] = WS2812B_Color[WS2812B_Color_Set];
+        FastLED.show();
+        WS2812B_Color_Set++;
+        WS2812B_Color_Set > 3 ? WS2812B_Color_Set = 0 : WS2812B_Color_Set = WS2812B_Color_Set;
     }
     delay(2000);
     for (int i = 0; i < 255; i++)
