@@ -9,9 +9,10 @@
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
 
-<center>
-    <img src="image/12.png" height="50px" alt="example" >
-</center>
+<p align="center" width="100%">
+    <img src="image/12.png" height="200px" alt="example" >
+</p>
+
 
 <p> 
   <a href="https://code.visualstudio.com/"> <img src="badges/VisualStudioCode_badge.png" height="25px" alt="VisualStudioCode_badge" /> </a>
