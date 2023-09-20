@@ -10,7 +10,7 @@
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
 
 <p align="center" width="100%">
-<img src="image/12.png" alt="Stanford-Alpaca" style="width: 50%; min-width: 50px; display: block; margin: auto;">
+<img src="image/12.png" alt="Stanford-Alpaca" style="width: 30%; min-width: 100px; display: block; margin: auto;">
 </p>
 
 <p> 
