@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-20 17:23:12
+ * @LastEditTime: 2023-09-20 17:52:17
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -12,6 +12,7 @@
 <p align="center" width="100%">
 <img src="image/12.png" alt="Stanford-Alpaca" style="width: 30%; min-width: 100px; display: block; margin: auto;">
 </p>
+
 
 <p> 
   <a href="https://code.visualstudio.com/"> <img src="badges/VisualStudioCode_badge.png" height="25px" alt="VisualStudioCode_badge" /> </a>
@@ -59,14 +60,14 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 <details><summary><b>T-Keyboard-S3</b></summary>
 
 ##### T-Keyboard-S3 Front
-<center>
+<p align="center" width="100%">
     <img src="image/1.png" alt="example">
-</center>
+</p>
 
 ##### T-Keyboard-S3 Back
-<center>
+<p align="center" width="100%">
     <img src="image/2.png" alt="example">
-</center>
+</p>
 
 </details>
 
@@ -74,9 +75,9 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 <details><summary><b>T-Keyboard-S3_FPC</b></summary>
 
 ##### T-Keyboard-S3_FPC Front and Back
-<center>
+<p align="center" width="100%">
     <img src="image/3.png" alt="example">
-</center>
+</p>
 
 </details>
 
@@ -160,10 +161,10 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 3. Burn the file in the root directory of the project file "[firmware](./firmware/)" file,There is a description of the firmware file version inside, just choose the appropriate version to download.
 
-<center>
+<p align="center" width="100%">
     <img src="image/10.png" alt="example">
     <img src="image/11.png" alt="example">
-</center>
+</p>
 
 
 ## PinOverview

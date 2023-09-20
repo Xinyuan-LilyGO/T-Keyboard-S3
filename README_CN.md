@@ -4,14 +4,14 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-20 17:24:41
+ * @LastEditTime: 2023-09-20 17:51:27
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
 
-<center>
-    <img src="image/12.png" height="50px" alt="example" >
-</center>
+<p align="center" width="100%">
+<img src="image/12.png" alt="Stanford-Alpaca" style="width: 30%; min-width: 100px; display: block; margin: auto;">
+</p>
 
 <p> 
   <a href="https://code.visualstudio.com/"> <img src="badges/VisualStudioCode_badge.png" height="25px" alt="VisualStudioCode_badge" /> </a>
@@ -59,14 +59,14 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 <details><summary><b>T-Keyboard-S3</b></summary>
 
 ### T-Keyboard-S3 正面
-<center>
+<p align="center" width="100%">
     <img src="image/1.png" alt="example">
-</center>
+</p>
 
 ### T-Keyboard-S3 反面
-<center>
+<p align="center" width="100%">
     <img src="image/2.png" alt="example">
-</center>
+</p>
 
 </details>
 
@@ -74,9 +74,9 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 <details><summary><b>T-Keyboard-S3_FPC</b></summary>
 
 ### T-Keyboard-S3_FPC 正反面
-<center>
+<p align="center" width="100%">
     <img src="image/3.png" alt="example">
-</center>
+</p>
 
 </details>
 
@@ -160,10 +160,10 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 3. 烧录文件在项目文件根目录“[firmware](./firmware/)”文件下，里面有对firmware文件版本的说明，选择合适的版本下载即可。
 
-<center>
+<p align="center" width="100%">
     <img src="image/10.png" alt="example">
     <img src="image/11.png" alt="example">
-</center>
+</p>
 
 
 ## 引脚总览
