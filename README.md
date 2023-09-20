@@ -10,7 +10,7 @@
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
 
 <p align="center" width="100%">
-    <img src="image/12.png" height="200px" alt="example" >
+    <img src="image/12.png" height="150px" alt="example" >
 </p>
 
 
