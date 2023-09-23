@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-20 17:52:17
+ * @LastEditTime: 2023-09-23 09:13:51
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -210,8 +210,8 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 <br />
 
-* Q. How should I enable external PSRAM?
-* A. For PlatformIO users, open the project file "platformio.ini" and use the option "-D BOARD_HAS_PSRAM" under "build_flags = xxx". Also, use "board_build.arduino.memory_type = qio_qspi". Note that if there is no external PSRAM connected to the device, an error will occur after downloading. <br /> For Arduino users, open the "Tools" menu and select "PSRAM: QSPI PSRAM" to use the external PSRAM normally.
+* Q. How to enable PSRAM on T-Keyboard-S3?
+* A. The chip used in T-Keyboard-S3 is ESP32S3R8, which only has internal PSRAM available. <br />For PlatformIO users, please open the project file "platformio.ini" and use the option "-D BOARDHASPSRAM" under "buildflags = xxx". Also, use "boardbuild.arduino.memorytype = qioopi" to enable the internal PSRAM. <br />For Arduino users, open the "Tools" menu and select "PSRAM: OPI PSRAM" to use the internal PSRAM normally.
 
 <br />
 

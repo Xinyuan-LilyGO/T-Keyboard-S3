@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-20 17:51:27
+ * @LastEditTime: 2023-09-23 09:05:56
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -209,8 +209,8 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 <br />
 
-* Q. 我应该如何开启外部PSRAM呢？
-* A. PlatformIO用户请打开项目文件“platformio.ini”，使用“build_flags = xxx”下的选项“-D BOARD_HAS_PSRAM”,并且使用“board_build.arduino.memory_type = qio_qspi ”，注意，如果设备上无外接PSRAM，烧录后就会报错。<br />Arduino用户打开菜单“工具”栏，选择PSRAM: “QSPI PSRAM”即可正常使用外部PSRAM。
+* Q. T-Keyboard-S3应该如何开启PSRAM呢？
+* A. T-Keyboard-S3搭载的芯片是ESP32S3R8，只有内部PSRAM可用。<br />PlatformIO用户请打开项目文件“platformio.ini”，使用“build_flags = xxx”下的选项“-D BOARD_HAS_PSRAM”,并且使用“board_build.arduino.memory_type = qio_opi ”，即可开启内部PSRAM。<br />Arduino用户打开菜单“工具”栏，选择PSRAM: “OPI PSRAM”即可正常使用内部PSRAM。
 
 <br />
 
