@@ -92,7 +92,7 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 * FLASH：16M
 * 其他说明：更多资料请访问[乐鑫官方ESP32­ S3­ WROOM­ 1数据手册](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 
-### 2. 四块128x128像素LCD显示屏幕
+### 2. 0.85英寸四块128x128像素LCD显示屏幕
 
 * 驱动：GC9107
 * 兼容库：Arduino_GFX、TFT_eSPI、lvgl
