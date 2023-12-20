@@ -93,7 +93,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 * FLASH: 16M
 * Others: For more information, please visit[Espressif Official ESP32 S3 WROOM 1 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 
-### 2. Four 128x128 pixel LCD display screens
+### 2. 0.85 Inch Four 128x128 pixel LCD display screens
 
 * Drive: GC9107
 * Compatibility library: Arduino_GFX,TFT_eSPI,lvgl
