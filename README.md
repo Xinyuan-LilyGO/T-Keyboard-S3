@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-23 09:13:51
+ * @LastEditTime: 2023-12-22 17:02:43
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -93,7 +93,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 * FLASH: 16M
 * Others: For more information, please visit[Espressif Official ESP32 S3 WROOM 1 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 
-### 2. 0.85 Inch Four 128x128 pixel LCD display screens
+### 2. Four 128x128 pixel LCD display screens
 
 * Drive: GC9107
 * Compatibility library: Arduino_GFX,TFT_eSPI,lvgl
@@ -112,6 +112,12 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 
 ## QuickStart
+
+### Examples Support
+
+<p align="center" width="100%">
+    <img src="image/T-Keyboard-S3_Example_Support.png" alt="example">
+</p>
 
 ### PlatformIO
 1. Install[VisualStudioCode](https://code.visualstudio.com/Download),Choose installation based on your system type.
