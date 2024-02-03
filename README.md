@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-12-22 17:02:43
+ * @LastEditTime: 2024-02-03 11:53:44
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -86,18 +86,22 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 ## Module
 
-### 1. ESP32­ S3­ WROOM­ 1
+### 1. MCU
 
-* Chip: ESP32-S3R8
+* Model: ESP32­-S3-WROOM­-1
+* Chip: ESP32-S3-R8
 * PSRAM: 8M (Octal SPI)
 * FLASH: 16M
-* Others: For more information, please visit[Espressif Official ESP32 S3 WROOM 1 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
+* Others: For more information, please visit[Espressif Official ESP32-S3-WROOM-1 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 
-### 2. Four 128x128 pixel LCD display screens
+### 2. Screen
 
-* Drive: GC9107
-* Compatibility library: Arduino_GFX,TFT_eSPI,lvgl
-* Bus communication protocol: Standard SPI
+* Screen Model: N085-1212TBWIG06-C08
+* Size: 0.85-inch
+* Resolution Ratio: 128x128px
+* Screen Type: TFT
+* Driver Chip: GC9107
+* Bus Communication Protocol: Standard SPI
 * Others: The RST, DC, MOSI, SCLK, and BL pins of the four screens share a common bus. During initialization, all four screens are reset together, and by selecting different CS lines, you can control the refreshing data for each screen separately.
 
 ### 3. Hot swappable button
@@ -143,6 +147,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 | Setting                               | Value                                 |
 | :-------------------------------: | :-------------------------------: |
+| Board                                | LilyGo T-Display-S3              |
 | Upload Speed                     | 921600                               |
 | USB Mode                           | Hardware CDC and JTAG     |
 | USB CDC On Boot                | Enabled                             |

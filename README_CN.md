@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-09-23 09:05:56
+ * @LastEditTime: 2024-02-03 11:52:30
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -85,17 +85,21 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 ## 模块
 
-### 1. ESP32­ S3­ WROOM­ 1
+### 1. MCU
 
-* 芯片：ESP32-S3R8
+* 模块：ESP32­-S3-WROOM­-1
+* 芯片：ESP32-S3-R8
 * PSRAM：8M (Octal SPI)
 * FLASH：16M
-* 其他说明：更多资料请访问[乐鑫官方ESP32­ S3­ WROOM­ 1数据手册](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
+* 其他说明：更多资料请访问[乐鑫官方ESP32-S3­-WROOM­-1数据手册](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 
-### 2. 0.85英寸四块128x128像素LCD显示屏幕
+### 2. 屏幕
 
-* 驱动：GC9107
-* 兼容库：Arduino_GFX、TFT_eSPI、lvgl
+* 屏幕型号：N085-1212TBWIG06-C08
+* 尺寸：0.85英寸
+* 分辨率：128x128px
+* 屏幕类型：TFT
+* 驱动芯片：GC9107
 * 使用总线通信协议：标准SPI
 * 其他说明：四块屏幕的RST、DC、MOSI、SCLK、BL引脚各共用一条总线，初始化复位时候四块屏幕一起复位，选择不同CS线即可控制不同的屏幕刷新数据
 
@@ -111,6 +115,12 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 
 ## 快速开始
+
+### 示例支持
+
+<p align="center" width="100%">
+    <img src="image/T-Keyboard-S3_Example_Support.png" alt="example">
+</p>
 
 ### PlatformIO
 1. 安装[VisualStudioCode](https://code.visualstudio.com/Download)，根据你的系统类型选择安装。
@@ -136,6 +146,7 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 | Setting                               | Value                                 |
 | :-------------------------------: | :-------------------------------: |
+| Board                                | LilyGo T-Display-S3              |
 | Upload Speed                     | 921600                               |
 | USB Mode                           | Hardware CDC and JTAG     |
 | USB CDC On Boot                | Enabled                             |
@@ -190,7 +201,7 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 | 其他引脚           | ESP32S3引脚      |
 | :------------------: | :------------------:|
-| WS2812B_Data    | IO11                 |
+| WS2812B_DATA    | IO11                 |
 
 ## 常见问题
 
