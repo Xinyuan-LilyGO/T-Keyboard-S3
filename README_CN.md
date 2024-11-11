@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-11-11 17:42:42
+ * @LastEditTime: 2024-11-11 18:01:42
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -59,6 +59,18 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 ## 预览
 
+### 实物图
+
+<p align="center" width="100%">
+    <img src="image/14.png" alt="">
+</p>
+
+---
+
+<p align="center" width="100%">
+    <img src="image/15.png" alt="">
+</p>
+
 ### PCB板
 
 #### T-Keyboard-S3 正面
@@ -66,18 +78,19 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
     <img src="image/1.png" alt="example">
 </p>
 
+---
+
 #### T-Keyboard-S3 反面
 <p align="center" width="100%">
     <img src="image/2.png" alt="example">
 </p>
 
+---
+
 #### T-Keyboard-S3_FPC 正反面
 <p align="center" width="100%">
     <img src="image/3.png" alt="example">
 </p>
-
-### 渲染图
-
 
 ## 模块
 

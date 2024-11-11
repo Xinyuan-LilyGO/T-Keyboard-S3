@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-11 17:42:34
+ * @LastEditTime: 2024-11-11 18:03:09
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -56,6 +56,18 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 ## Preview
 
+### Actual Product Image
+
+<p align="center" width="100%">
+    <img src="image/14.png" alt="">
+</p>
+
+---
+
+<p align="center" width="100%">
+    <img src="image/15.png" alt="">
+</p>
+
 ### PCB board
 
 #### T-Keyboard-S3 Front
@@ -63,10 +75,14 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
     <img src="image/1.png" alt="example">
 </p>
 
+---
+
 #### T-Keyboard-S3 Back
 <p align="center" width="100%">
     <img src="image/2.png" alt="example">
 </p>
+
+---
 
 #### T-Keyboard-S3_FPC Front And Back
 <p align="center" width="100%">
