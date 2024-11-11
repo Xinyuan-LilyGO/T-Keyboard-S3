@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-11 16:42:27
+ * @LastEditTime: 2024-11-11 17:20:07
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -163,6 +163,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 | Flash Mode                         | QIO 80MHz                         |
 | Flash Size                           | 16MB (128Mb)                     |
 | Core Debug Level                | None                                 |
+| Partition Scheme                | 16M Flash (3MB APP/9.9MB FATFS) |
 | PSRAM                                | OPI PSRAM                         |
 | Arduino Runs On                  | Core 1                               |
 | Events Run On                     | Core 1                               |
