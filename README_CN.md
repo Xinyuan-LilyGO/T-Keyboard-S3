@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-11-11 17:20:12
+ * @LastEditTime: 2024-11-11 17:42:42
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -35,7 +35,7 @@
 
 | Product                     | SOC           |  FLASH  |  PSRAM   | Link                   |
 | :------------------------: | :-----------: |:-------: | :---------: | :------------------: |
-| T-Keyboard-S3_V1.0   | ESP32S3R8 |   16M   | 8M (Octal SPI) |  [暂未售卖]()  |
+| T-Keyboard-S3_V1.0   | ESP32S3R8 |   16M   | 8M (Octal SPI) |  [aliexpress](https://a.aliexpress.com/_mqY5Heu)  |
 
 ## 目录
 - [描述](#描述)
