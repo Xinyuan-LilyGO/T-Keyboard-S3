@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-11 18:03:09
+ * @LastEditTime: 2024-11-11 18:05:55
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -88,8 +88,6 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 <p align="center" width="100%">
     <img src="image/3.png" alt="example">
 </p>
-
-### Rendering
 
 ## Module
 
