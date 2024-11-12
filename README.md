@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-11 18:05:55
+ * @LastEditTime: 2024-11-12 13:50:31
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -264,3 +264,4 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 * [FastLED-3.6.0](https://github.com/FastLED/FastLED)
 * [lvgl](https://github.com/lvgl/lvgl)
 * [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)
+* [ESP32-BLE-Keyboard-0.3.0](https://github.com/T-vK/ESP32-BLE-Keyboard)

@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-11-11 18:01:42
+ * @LastEditTime: 2024-11-12 13:51:12
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -268,3 +268,4 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 * [FastLED-3.6.0](https://github.com/FastLED/FastLED)
 * [lvgl](https://github.com/lvgl/lvgl)
 * [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)
+* [ESP32-BLE-Keyboard-0.3.0](https://github.com/T-vK/ESP32-BLE-Keyboard)
