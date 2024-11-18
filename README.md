@@ -18,7 +18,7 @@
 <p> 
   <a href="https://code.visualstudio.com/"> <img src="badges/VisualStudioCode_badge.png" height="25px" alt="VisualStudioCode_badge" /> </a>
   <a href="https://platformio.org/"> <img src="badges/PlatformIO_badge.png" height="25px" alt="PlatformIO_badge" /> </a>
-  <a href="https://hangzhang.org/"> <img src="badges/Arduino_badge.png" height="25px" alt="Arduino_badge"></a>
+  <a href="https://www.arduino.cc/"> <img src="badges/Arduino_badge.png" height="25px" alt="Arduino_badge"></a>
 </p> 
 
 ## **English | [中文](./README_CN.md)**
