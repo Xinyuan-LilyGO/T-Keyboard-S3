@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-12 13:50:31
+ * @LastEditTime: 2024-11-20 15:51:11
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -141,7 +141,7 @@ T-Keyboard-S3 has abundant expansion IO ports, allowing for the connection of mo
 
 | Firmware | Description | Picture |
 | ------  | ------  | ------ |
-| [T-Keyboard-S3_Test_firmware_V1.0.1](./firmware/T-Keyboard-S3_Test_firmware_V1.0.1.bin) | Added WiFi test routine |  |
+| [T-Keyboard-S3_Test](./firmware/T-Keyboard-S3_Test_firmware_V1.0.1.bin) | Added WiFi test routine |  |
 
 ### PlatformIO
 1. Install[VisualStudioCode](https://code.visualstudio.com/Download),Choose installation based on your system type.

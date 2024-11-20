@@ -4,7 +4,7 @@
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-11-18 11:47:34
+ * @LastEditTime: 2024-11-20 15:51:22
  * @License: GPL 3.0
 -->
 <!-- <h1 align = "center">T-Keyboard-S3</h1> -->
@@ -144,7 +144,7 @@ T-Keyboard-S3有丰富的扩展IO口，可扩展三个方向的模块，其中�
 
 | Firmware | Description | Picture |
 | ------  | ------  | ------ |
-| [T-Keyboard-S3_Test_firmware_V1.0.1](./firmware/T-Keyboard-S3_Test_firmware_V1.0.1.bin) | Added WiFi test routine |  |
+| [T-Keyboard-S3_Test](./firmware/T-Keyboard-S3_Test_firmware_V1.0.1.bin) | Added WiFi test routine |  |
 
 ### PlatformIO
 1. 安装[VisualStudioCode](https://code.visualstudio.com/Download)，根据你的系统类型选择安装。
